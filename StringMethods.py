@@ -2,11 +2,11 @@
 # All string methods return new values. They do not change the original string
 
 # capitalize() method Converts the first character to upper case
-x = "rana"
+x = "patel"
 print(x.capitalize())
 
 # casefold() method Converts string into lower case
-x = "RANA"
+x = "EVIL"
 print(x.casefold())
 
 # The center() method will center align the string, using a specified character (space is default) as the fill character

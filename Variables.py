@@ -61,7 +61,7 @@ print(p,q,r,s)
 # Space are excluded in + operator
 print(p+q+r)
 
-# Note:when you try to combine a string and a number with the + operator, Python will give you an error
+# Note:When you try to combine a string and a number with the + operator, Python will give you an error
 # the + character works as a mathematical operator
 a=10
 b=2
