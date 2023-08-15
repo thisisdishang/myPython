@@ -15,7 +15,6 @@ print(_my_var)
 print(MYVAR)
 
 # Multi Words Variable Names
-
 # Camel Case
 # Each word, except the first, starts with a capital letter
 myVarName='Rean'
