@@ -43,3 +43,4 @@ mixlist=["Dishang",7,True]
 # It is also possible to use the list() constructor when creating a new list
 makelist=list(("Mango","Apple","Banana"))
 print(makelist)
+
