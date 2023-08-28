@@ -83,6 +83,8 @@ x = "F"
 print(x.isdigit())
 
 # isidentifier() method Returns True if the string is an identifier
+"""A string is considered a valid identifier if it only contains alphanumeric letters (a-z) and (0-9), or underscores (_).
+A valid identifier cannot start with a number, or contain any spaces."""
 a = "MyFolder"
 b = "Demo002"
 c = "2bring"
