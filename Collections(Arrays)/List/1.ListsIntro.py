@@ -43,3 +43,7 @@ mixlist=["Dishang",7,True]
 # It is also possible to use the list() constructor when creating a new list
 makelist=list(("Mango","Apple","Banana"))
 print(makelist)
+
+# count() method
+mylist=["Keyboard","CPU","USB","DVD","Keyboard","CD","LED","Keyboard"]
+print(mylist.count("Keyboard"))
