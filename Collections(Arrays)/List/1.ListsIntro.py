@@ -47,3 +47,7 @@ print(makelist)
 # count() method
 mylist=["Keyboard","CPU","USB","DVD","Keyboard","CD","LED","Keyboard"]
 print(mylist.count("Keyboard"))
+
+# index() method
+# Note: The index() method only returns the first occurrence of the value
+print(mylist.index("CD"))
