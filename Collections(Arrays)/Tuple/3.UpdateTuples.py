@@ -1,5 +1,6 @@
 """Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
 But there is a workaround"""
+
 # You can convert the tuple into a list, change the list, and convert the list back into a tuple
 mytuple=("PC","Laptop","Watch")
 print(mytuple)
@@ -27,6 +28,7 @@ print(mytuple)
 otherwise it will not be identified as a tuple"""
 
 # Note: You cannot remove items in a tuple
+
 """Tuples are unchangeable, so you cannot remove items from it, but you can use the same workaround
 as we used for changing and adding tuple items"""
 mytuple=("PC","Laptop","Watch","CD","DVD")
