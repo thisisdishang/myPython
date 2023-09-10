@@ -49,3 +49,11 @@ mixtuple=("Dishang",7,True)
 mytuple2=tuple(("A","B","C"))
 print(mytuple2)
 print(type(mytuple2))
+
+# count() method
+mytuple=("Keyboard","DVD","CPU","USB","DVD","Keyboard","CD","LED","Keyboard")
+print(mytuple.count("Keyboard"))
+
+# index() method
+# Note: The index() method only returns the first occurrence of the value
+print(mytuple.index("DVD"))
