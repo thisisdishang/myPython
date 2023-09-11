@@ -1,8 +1,8 @@
 # Tuples are used to store multiple items in a single variable
 # A tuple is a collection which is ordered and unchangeable
-# Tuples are written with round brackets
 # From Python's perspective, tuples are defined as objects with the data type 'tuple'
 
+# Tuples are written with round brackets
 mytuple=("PC","Laptop","Watch")
 print(type(mytuple))
 print(mytuple)
