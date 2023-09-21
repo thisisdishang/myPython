@@ -2,7 +2,7 @@
 # A dictionary is a collection which is ordered, changeable and do not allow duplicates
 
 # Dictionaries are written with curly brackets, and have keys and values
-mydict={"name":"Barbie","Age":25,"Gender":"Female"}
+mydict={"Name":"Barbie","Age":25,"Gender":"Female"}
 print(mydict)
 
 # From Python's perspective, Dictionary are defined as objects with the data type 'dict'
@@ -11,7 +11,7 @@ print(type(mydict))
 # Dictionary Items:
 # Dictionary items are ordered, changeable, and does not allow duplicates
 # Dictionary items are presented in key:value pairs, and can be referred to by using the key name
-print(mydict["name"])
+print(mydict["Name"])
 
 # Ordered or Unordered?
 # As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered
@@ -24,7 +24,7 @@ print(mydict["name"])
 # Duplicates Not Allowed:
 # Dictionaries cannot have two items with the same key
 # Duplicate values will overwrite existing values
-mydict={"name":"Barbie","Age":25,"Gender":"Female","Age":20}
+mydict={"Name":"Barbie","Age":25,"Gender":"Female","Age":20}
 print(mydict)
 
 # Dictionary Length:
@@ -40,5 +40,5 @@ print(mixdict)
 
 # The dict() Constructor:
 # It is also possible to use the dict() constructor to make a dictionary
-makedict=dict(name="James",age=35,Gender="Male")
+makedict=dict(name="James",age=35,gender="Male")
 print(makedict)
