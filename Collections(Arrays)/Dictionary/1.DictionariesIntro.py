@@ -42,3 +42,19 @@ print(mixdict)
 # It is also possible to use the dict() constructor to make a dictionary
 makedict=dict(name="James",age=35,gender="Male")
 print(makedict)
+
+# The fromkeys() method returns a dictionary with the specified keys and the specified value
+x=['key1', 'key2', 'key3']
+print(type(x))
+y=[10,20,30]
+thisdict=dict.fromkeys(x,y)
+print(thisdict)
+
+# The setdefault() method returns the value of the item with the specified key
+# If the key does not exist, insert the key, with the specified value
+car={"brand": "Ford","model": "Mustang","year": 1964}
+y=car.setdefault("year",2023)
+x=car.setdefault("color", "white")
+print(y)
+print(x)
+print(car)
