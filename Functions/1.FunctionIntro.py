@@ -60,3 +60,31 @@ def midname(**kwargs):
     print("His/Her middle name is "+kwargs["mname"])
 
 midname(fname="James",mname="John",lname="Bond")
+
+# Default Parameter Value:
+# If we call the function without argument, it uses the default value
+def mycountry(Country="India"):
+    print("I am from "+Country)
+
+mycountry("England")
+mycountry()
+
+# Passing a List as an Argument:
+"""You can send any data types of argument to a function (string, number, list, dictionary etc.), 
+and it will be treated as the same data type inside the function"""
+# E.g. if you send a List as an argument, it will still be a List when it reaches the function
+color1=["Red","Green","Orange"]
+color2=["Pink","Yellow","Blue"]
+def mycolor(list1):
+    for i in list1:
+        print(i)
+
+mycolor(color1)
+mycolor(color2)
+
+# Return Values:
+# To let a function return a value, use the return statement
+def sum(x,y):
+    return x+y
+
+print("Sum of two numbers:",sum(3,4))
