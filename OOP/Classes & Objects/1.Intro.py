@@ -14,3 +14,9 @@ print(O1.x)
 
 """The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
 To understand the meaning of classes we have to understand the built-in __init__() function"""
+
+# The pass statement:
+"""class definitions cannot be empty, but if you for some reason have a class definition with no content,
+put in the pass statement to avoid getting an error"""
+class me:
+    pass
