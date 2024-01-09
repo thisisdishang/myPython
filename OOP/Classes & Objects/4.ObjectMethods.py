@@ -25,7 +25,7 @@ class myclass2:
         print("Good to see you "+me.name)
 
 
-o2 = myclass('Namesis', 24)
+o2 = myclass2('Namesis', 24)
 o2.greeting()
 
 # Modify object properties
