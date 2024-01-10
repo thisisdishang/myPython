@@ -30,8 +30,23 @@ o2.printdetails()
 # When you add the __init__() function, the child class will no longer inherit the parent's __init__() function.
 # Note: The child's __init__() function overrides the inheritance of the parent's __init__() function
 # To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function
-class son(father):
+class son2(father):
     def __init__(self, name, age):
         father.__init__(self,name,age)
     
 # Here we kept the inheritance of the parent class, and we are ready to add functionality in the __init__() function
+
+# Use the super() function:
+# Python also has a super() function that will make the child class inherit all the methods and properties from its parent
+# By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent
+# Add properties & methods:
+class son3(father):
+    def __init__(self, name, age,gender):
+        super().__init__(name, age)
+        self.gender=gender   
+
+    def hello(self):
+        print(f"{self.name} {self.age} {self.gender}")
+
+y=son3("Urus",14,"Male")
+y.hello()
